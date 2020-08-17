@@ -3,4 +3,4 @@
 # flask-app: python app that makes a prediction based on parameters
 # Dockerfile: pull image to create a Docker container
 # Kubernets: using jubectm to instatiate a pod loading flask-app
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+[![CircleCI](https://circleci.com/gh/antonyseabramedeiros/minikube_microservice.svg?style=svg)](https://circleci.com/gh/antonyseabramedeiros/minikube_microservice)
