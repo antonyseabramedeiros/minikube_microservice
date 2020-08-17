@@ -1,0 +1,17 @@
+root@da62ee102064:/app# more app_amede_log.txt
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 949-570-249
+[2020-08-12 13:08:56,031] INFO in app_amede: JSON payload:
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0'
+: 4.98}}
+[2020-08-12 13:08:56,048] INFO in app_amede: Inference payload DataFrame:
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-08-12 13:08:56,062] INFO in app_amede: Scaling Payload:
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-08-12 13:08:56,067] INFO in app_amede: Prediction:
+[20.35373177134412]
+172.20.0.1 - - [12/Aug/2020 13:08:56] "POST /predict HTTP/1.1" 200 -

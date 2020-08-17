@@ -1,0 +1,12 @@
+(.devops) [root@vrt1585 project-ml-microservice-kubernetes]# ./run_kubernetes.sh
+NAME                              READY   STATUS    RESTARTS   AGE
+hello-minikube-64b64df8c9-8tfkq   1/1     Running   0          2d6h
+deployment.apps/flask-app created
+service/flask-app exposed
+NAME                              READY   STATUS              RESTARTS   AGE
+flask-app-699dd6dbd5-2tl9w        0/1     ContainerCreating   0          0s
+hello-minikube-64b64df8c9-8tfkq   1/1     Running             0          2d6h
+NAME                              READY   STATUS    RESTARTS   AGE
+flask-app-699dd6dbd5-2tl9w        1/1     Running   0          3m1s
+hello-minikube-64b64df8c9-8tfkq   1/1     Running   0          2d6h
+(.devops) [root@vrt1585 project-ml-microservice-kubernetes]#
